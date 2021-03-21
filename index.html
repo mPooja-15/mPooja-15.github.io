@@ -13,8 +13,8 @@
       rel="stylesheet"
     />
 
-    <title>Reflux HTML CSS Template</title>
-<!--
+    <title>Portfolio</title>
+    <!--
 Reflux Template
 https://templatemo.com/tm-531-reflux
 -->
@@ -37,11 +37,13 @@ https://templatemo.com/tm-531-reflux
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
             <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+              <a href="#"
+                ><img src="assets/images/57384798.jpeg" alt="profile"
+              /></a>
             </div>
             <div class="author-content">
-              <h4>Reflux Me</h4>
-              <span>Web Designer</span>
+              <h4>Pooja Mishra</h4>
+              <span>Full Stack Developer</span>
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
@@ -54,26 +56,29 @@ https://templatemo.com/tm-531-reflux
             <div class="social-network">
               <ul class="soial-icons">
                 <li>
-                  <a href="https://fb.com/templatemo"
+                  <a href="https://wwww.facebook.com/mpooja.15"
                     ><i class="fa fa-facebook"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="https://twitter.com/poojam1507?lang=en"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/mpooja15"><i class="fa fa-linkedin"></i></a>
+                  
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                  <a href="https://www.instagram.com/_p.o.o.j.a._m/"><i class="fa fa-instagram"></i></a>
+
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
+                  <a href="https://dribbble.com/poojam1507"><i class="fa fa-dribbble"></i></a>
                 </li>
+              
               </ul>
             </div>
             <div class="copyright-text">
-              <p>Copyright 2019 Reflux Design</p>
+              <p>Copyright 2021  </p>
             </div>
           </div>
         </div>
@@ -85,8 +90,13 @@ https://templatemo.com/tm-531-reflux
             <h2>About Me</h2>
             <div class="line-dec"></div>
             <span
-              >This is a Bootstrap v4.2.1 CSS Template for you. Edit and use
-              this layout for your site. Updated on 21 May 2019 for repeated main menu HTML code.</span
+              >I have completed Bachelors's in Computer Science 
+              from SVMIT College . I'm a passionate learner
+              who's always willing to learn and work across technologies and
+              domains bulb. I love to explore new technologies and leverage them
+              to solve real-life problems sparkles. Apart from that I also love
+              to guide and mentor newbies 👨🏻‍💻. I'm currently into Full Stack Web
+              Development .</span
             >
           </div>
           <div class="left-image-post">
@@ -471,7 +481,7 @@ https://templatemo.com/tm-531-reflux
         if (isAnimate) {
           $("body, html").animate(
             {
-              scrollTop: reqSectionPos
+              scrollTop: reqSectionPos,
             },
             800
           );
@@ -481,7 +491,7 @@ https://templatemo.com/tm-531-reflux
       };
 
       var checkSection = function checkSection() {
-        $(".section").each(function() {
+        $(".section").each(function () {
           var $this = $(this),
             topEdge = $this.offset().top - 80,
             bottomEdge = topEdge + $this.height(),
@@ -498,12 +508,12 @@ https://templatemo.com/tm-531-reflux
         });
       };
 
-      $(".main-menu").on("click", "a", function(e) {
+      $(".main-menu").on("click", "a", function (e) {
         e.preventDefault();
         showSection($(this).attr("href"), true);
       });
 
-      $(window).scroll(function() {
+      $(window).scroll(function () {
         checkSection();
       });
     </script>
